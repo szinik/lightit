@@ -2,10 +2,10 @@
 
 Steps to run the project.
 
-### `npm install`
+### Installs the dependencies
 
-Installs the dependencies
+`npm install`
 
-### `npm start`
+### Runs the project
 
-Runs the project
+`npm start`
