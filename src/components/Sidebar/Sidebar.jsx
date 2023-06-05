@@ -43,7 +43,7 @@ const Sidebar = ({
       axios
         .get(selectedMenuItemSearchKey, axiosOptions)
         .then(({ data }) => {
-          // se setea el nombre en esta instancia para que la data y el nombre cambien al mismo tiempo.
+          // the name is being set at this point, so that the data and the name ar refreshed at the same time.
           const selectedMenuItem = menuItems.find(
             ({ searchKey }) => searchKey === selectedMenuItemSearchKey
           );
